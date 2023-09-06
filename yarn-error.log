@@ -1,0 +1,56 @@
+Arguments: 
+  /home/ajdahim/.nvm/versions/node/v20.2.0/bin/node /snap/node/7707/bin/yarn.js install
+
+PATH: 
+  /tmp/yarn--1693478008554-0.25508748266603143:/home/ajdahim/.config/yarn/global/node_modules/.bin:/home/ajdahim/.config/yarn/link/node_modules/.bin:/home/ajdahim/.yarn/bin:/home/ajdahim/.nvm/versions/node/v20.2.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/ajdahim/.nvm/versions/node/v20.2.0/lib/node_modules/npm/bin/node-gyp-bin:/home/ajdahim/.nvm/versions/node/v20.2.0/bin/node_modules/npm/bin/node-gyp-bin:/home/ajdahim/Downloads/idea-IU-231.9011.34/bin:/home/ajdahim/Downloads/Postman:/home/ajdahim/.nvm/versions/node/v20.2.0/bin:/home/ajdahim/.npm-global/bin:/home/ajdahim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ajdahim/Downloads/node-dir/bin:/home/ajdahim/Downloads/node-dir/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, write
+      at writeSync (node:fs:941:3)
+      at SyncWriteStream._write (node:internal/fs/sync_write_stream:26:3)
+      at writeOrBuffer (node:internal/streams/writable:399:12)
+      at _write (node:internal/streams/writable:340:10)
+      at Writable.write (node:internal/streams/writable:344:10)
+      at Object.cursorTo (node:internal/readline/callbacks:54:17)
+      at writeOnNthLine (/snap/node/7707/lib/cli.js:49482:14)
+      at Spinner.render (/snap/node/7707/lib/cli.js:93489:48)
+      at Spinner.start (/snap/node/7707/lib/cli.js:93476:10)
+      at ConsoleReporter.activity (/snap/node/7707/lib/cli.js:93022:13)
+
+npm manifest: 
+  {
+    "name": "appawal",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~49.0.8",
+      "expo-status-bar": "~1.6.0",
+      "react": "18.2.0",
+      "react-native": "0.72.4"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
